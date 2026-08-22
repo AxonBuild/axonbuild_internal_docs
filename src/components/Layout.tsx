@@ -19,7 +19,7 @@ export function Layout() {
                 onError={() => setLogoOk(false)}
               />
             )}
-            <span>AxonBuild</span>
+            <span>ABRuntime</span>
             <span className="brand-muted">Docs</span>
           </Link>
           <nav className="nav">
@@ -32,7 +32,7 @@ export function Layout() {
         <Outlet />
       </main>
       <footer className="footer">
-        <p>Internal documentation — AxonBuild</p>
+        <p>Internal documentation — ABRuntime</p>
       </footer>
     </div>
   );

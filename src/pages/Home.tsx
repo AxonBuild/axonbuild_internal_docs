@@ -13,7 +13,7 @@ export function Home() {
       <section className="hero">
         <h1>Internal handbook</h1>
         <p className="lede">
-          AxonBuild builds AI-powered and full-stack products. This site holds technical guidance, process notes, and
+          ABRuntime builds AI-powered and full-stack products. This site holds technical guidance, process notes, and
           articles for the team.
         </p>
       </section>
@@ -40,7 +40,7 @@ export function Home() {
                 onError={() => setShowHero(false)}
               />
             </div>
-            <figcaption className="hero-caption">AxonBuild</figcaption>
+            <figcaption className="hero-caption">ABRuntime</figcaption>
           </figure>
         )}
         {!showHero && (

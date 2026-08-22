@@ -167,6 +167,7 @@ body {
   position: relative;
   display: block;
   width: 100%;
+  aspect-ratio: 1825 / 1022;
   min-width: 0;
   overflow: hidden;
   border-radius: 14px;
@@ -191,7 +192,9 @@ body {
   display: block;
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 .hero-image-shine {
