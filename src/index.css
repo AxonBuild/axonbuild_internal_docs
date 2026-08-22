@@ -478,3 +478,35 @@ body {
 .muted {
   color: var(--muted);
 }
+
+.mermaid-diagram,
+.mermaid-error {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.mermaid-diagram:empty {
+  min-height: 12rem;
+}
+
+.mermaid-diagram svg {
+  display: block;
+  width: 100%;
+  min-width: 34rem;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mermaid-error p {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.mermaid-error pre {
+  margin-bottom: 0;
+}

@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { isValidElement, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { getPost } from "../data/posts";
 import { formatDateDdMmYyyy } from "../formatDate";
+import { MermaidDiagram } from "../components/MermaidDiagram";
 
 export function PostPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -54,6 +55,16 @@ export function PostPage() {
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw]}
         components={{
+          pre: ({ children, ...props }) => {
+            const child = Array.isArray(children) ? children[0] : children;
+            if (
+              isValidElement<{ className?: string; children?: unknown }>(child) &&
+              child.props.className === "language-mermaid"
+            ) {
+              return <MermaidDiagram chart={String(child.props.children).trim()} />;
+            }
+            return <pre {...props}>{children}</pre>;
+          },
           a: ({ href, children, ...props }) => {
             if (href?.startsWith("http")) {
               return (

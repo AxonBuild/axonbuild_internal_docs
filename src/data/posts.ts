@@ -7,6 +7,12 @@ export type PostMeta = {
 
 export const posts: PostMeta[] = [
   {
+    slug: "voicebox-runpod",
+    title: "Deploying Voicebox on RunPod",
+    date: "2026-08-22",
+    description: "A persistent, restart-safe, and password-protected GPU deployment.",
+  },
+  {
     slug: "team-sops-current",
     title: "Team SOPs",
     date: "2026-08-19",
