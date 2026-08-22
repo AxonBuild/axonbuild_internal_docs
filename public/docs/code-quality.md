@@ -1,4 +1,6 @@
-# Technical Guidance
+# Technical Guidance (Obsolete)
+
+> This page is archived. Use [Technical guidance — CLAUDE.md](/p/technical-guidance-claude) for the current guidance.
 
 ## Table of Contents
 

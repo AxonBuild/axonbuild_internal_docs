@@ -1,4 +1,6 @@
-# Team SOPs — the short version
+# Team SOPs (Obsolete)
+
+> This page is archived. Use [Team SOPs — CLAUDE.md](/p/team-sops-claude) for the current process.
 
 > Rules we actually try to live by. Nothing fancy — just how we keep the wheels on.
 

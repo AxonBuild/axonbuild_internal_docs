@@ -7,10 +7,22 @@ export type PostMeta = {
 
 export const posts: PostMeta[] = [
   {
+    slug: "team-sops-claude",
+    title: "Team SOPs — CLAUDE.md",
+    date: "2026-08-19",
+    description: "The current, AI-first operating instructions for every project.",
+  },
+  {
+    slug: "technical-guidance-claude",
+    title: "Technical guidance — CLAUDE.md",
+    date: "2026-08-19",
+    description: "A short CLAUDE.md template for maintainable, secure project work.",
+  },
+  {
     slug: "team-sops",
-    title: "Team SOPs",
+    title: "Team SOPs (Obsolete)",
     date: "2026-04-08",
-    description: "Tracker, meetings, QA, AI — and saying hi before you disappear.",
+    description: "Archived SOPs. Use Team SOPs — CLAUDE.md instead.",
   },
   {
     slug: "welcome",
@@ -20,9 +32,9 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "code-quality",
-    title: "Technical guidance & code quality",
+    title: "Technical guidance & code quality (Obsolete)",
     date: "2025-06-03",
-    description: "Team standards for style, reviews, security, and workflow.",
+    description: "Archived guidance. Use Technical guidance — CLAUDE.md instead.",
   },
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
