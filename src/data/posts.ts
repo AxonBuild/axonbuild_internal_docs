@@ -7,10 +7,10 @@ export type PostMeta = {
 
 export const posts: PostMeta[] = [
   {
-    slug: "team-sops-claude",
-    title: "Team SOPs — CLAUDE.md",
+    slug: "team-sops-current",
+    title: "Team SOPs",
     date: "2026-08-19",
-    description: "The current, AI-first operating instructions for every project.",
+    description: "The current operating procedures for every project.",
   },
   {
     slug: "technical-guidance-claude",
@@ -22,7 +22,7 @@ export const posts: PostMeta[] = [
     slug: "team-sops",
     title: "Team SOPs (Obsolete)",
     date: "2026-04-08",
-    description: "Archived SOPs. Use Team SOPs — CLAUDE.md instead.",
+    description: "Archived SOPs. Use the current Team SOPs instead.",
   },
   {
     slug: "welcome",

@@ -1,4 +1,4 @@
-# Team SOPs — CLAUDE.md
+# Team SOPs
 
 
 ## Communication

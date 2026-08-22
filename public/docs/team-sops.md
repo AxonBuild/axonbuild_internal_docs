@@ -1,6 +1,6 @@
 # Team SOPs (Obsolete)
 
-> This page is archived. Use [Team SOPs — CLAUDE.md](/p/team-sops-claude) for the current process.
+> This page is archived. Use the [current Team SOPs](/p/team-sops-current) instead.
 
 > Rules we actually try to live by. Nothing fancy — just how we keep the wheels on.
 
