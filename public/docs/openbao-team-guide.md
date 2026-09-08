@@ -8,7 +8,7 @@ We use OpenBao to store project secrets and environment variables. Access is con
 
 Open the URL and select **Username / Userpass** as the authentication method. If asked for the auth path, use `userpass`.
 
-Initial accounts are `bilal`, `shamoon`, and `shaf`. Get your temporary password directly from the administrator. Use your own account and change this password after your first login.
+Initial accounts are `bilal`, `shamoon`, and `shaff`. Get your temporary password directly from the administrator. Use your own account and change this password after your first login.
 
 Our login method is **userpass** in both the browser and scripts. OpenBao manages a session token internally after login; you do not need to obtain or paste a token to sign in. See the [login documentation](https://openbao.org/docs/commands/login/).
 
