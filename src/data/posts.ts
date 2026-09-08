@@ -7,6 +7,12 @@ export type PostMeta = {
 
 export const posts: PostMeta[] = [
   {
+    slug: "openbao-team-guide",
+    title: "OpenBao: team quick start",
+    date: "2026-09-08",
+    description: "Sign in, load project secrets with Python, and upload environment files.",
+  },
+  {
     slug: "voicebox-runpod",
     title: "Deploying Voicebox on RunPod",
     date: "2026-08-22",
