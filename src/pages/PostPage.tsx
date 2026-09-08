@@ -1,6 +1,7 @@
 import { isValidElement, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
+import rehypeHighlight from "rehype-highlight";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { getPost } from "../data/posts";
@@ -53,7 +54,13 @@ export function PostPage() {
       </p>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}
+        rehypePlugins={[
+          rehypeRaw,
+          [rehypeHighlight, {
+            aliases: { ini: ["dotenv", "env"] },
+            plainText: ["mermaid", "text", "txt"],
+          }],
+        ]}
         components={{
           pre: ({ children, ...props }) => {
             const child = Array.isArray(children) ? children[0] : children;

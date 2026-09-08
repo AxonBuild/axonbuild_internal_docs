@@ -440,6 +440,11 @@ body {
   font-size: inherit;
 }
 
+.doc pre code.hljs {
+  /* The pre element owns scrolling and padding, including inside details. */
+  overflow-x: visible;
+}
+
 .doc img {
   max-width: 100%;
   height: auto;
