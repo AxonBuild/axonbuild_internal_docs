@@ -7,6 +7,12 @@ export type PostMeta = {
 
 export const posts: PostMeta[] = [
   {
+    slug: "retell-voice-agents",
+    title: "Retell voice agents: practical engineering guide",
+    date: "2026-11-02",
+    description: "Engineering guidance for building, testing, releasing, and debugging Retell voice agents.",
+  },
+  {
     slug: "openbao-team-guide",
     title: "OpenBao: team quick start",
     date: "2026-09-08",
